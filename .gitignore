@@ -10,3 +10,6 @@ dist/
 .env
 vemv/
 __pycache__/
+
+#Настройки IDE
+.vs
