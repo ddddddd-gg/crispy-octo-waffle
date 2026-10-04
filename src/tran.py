@@ -50,7 +50,7 @@ while (run):
                try:
                    matrix[i][j] = float(matrix[i][j])
                except:
-                   matrix[i][j] = input("Ввод должен быть вещественным числом, повторите попытку")
+                   matrix[i][j] = print("Ввод должен быть вещественным числом, повторите попытку")
                else:
                    break
     print("Успешный ввод матрицы")
